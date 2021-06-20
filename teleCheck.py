@@ -1,7 +1,5 @@
 import time
 import requests
-jo = requests.get('https://pastebin.com/raw/kEaS1fgJ').text
-te = requests.get('https://pastebin.com/raw/4t80LzfB').text
 import webbrowser
 import sys as n
 import time as mm
@@ -14,14 +12,13 @@ def slow(M):
 		mm.sleep(1. / 80)
 		
 print("""
- ██████  ██   ██  █████ 
-██@vv1ck ██   ██ ██   ██ 
-██ JOKER ███████ ███████ ┌─┐ ┌─┐ ┬┌─ ┬─┐  
-██       ██   ██ ██   ██ ├┤  │   ├┴┐ ├┬┘  
- ██████  ██   ██ ██   ██ └─┘ └─┘ ┴ ┴ ┴└─  
+ ██████  ██   ██  █████ 
+██@vv1ck ██   ██ ██   ██ 
+██ JOKER ███████ ███████ ┌─┐ ┌─┐ ┬┌─ ┬─┐  
+██       ██   ██ ██   ██ ├┤  │   ├┴┐ ├┬┘  
+ ██████  ██   ██ ██   ██ └─┘ └─┘ ┴ ┴ ┴└─  
 
             TELEGRAM USERNAME""")
-slow(jo)
 print("""
 [1] >> For Arabic Press 1
 [2] >> For English Press 2
