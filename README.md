@@ -4,4 +4,4 @@ A file with the name of user.txt should be created and username must be placed i
 -
 Do not forget to create a new bot from <a href="https://t.me/BotFather">@BotFather</a> and take the token and put it in the tool
 -
-insta : 221298/ telegram : <a href="https://t.me/vv1ck">@vv1ck</a>
+insta : <a href="https:instagram.com/221298">@221298</a> | telegram : <a href="https://t.me/vv1ck">@vv1ck</a>
