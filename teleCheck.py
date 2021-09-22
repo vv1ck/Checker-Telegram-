@@ -48,8 +48,8 @@ if vv1ck == '1':
 			req = r.get(url)
 			if req.text.find('If you have <strong>Telegram</strong>, you can contact <a class="tgme_username_link"')>=0:	
 				print(f"  [{j}] متاح     >> [ {user} ]")
-				try
-				req = r.post(f'https://api.telegram.org/bot{token}/sendMessage?chat_id={ID}&text={m}\n[+] user >> [ @{user} ]\n\n{te}')
+				try:
+					req = r.post(f'https://api.telegram.org/bot{token}/sendMessage?chat_id={ID}&text={m}\n[+] user >> [ @{user} ]\n\n{te}')
 				except NameError:
 					pass
 				with open('Available.txt', 'a') as x:
@@ -91,8 +91,8 @@ elif vv1ck == '2':
 			if req.text.find('If you have <strong>Telegram</strong>, you can contact <a class="tgme_username_link"')>=0:
 				
 				print(f"  [{j}] Available     >> [ {user} ]")
-				try
-				req = r.post(f'https://api.telegram.org/bot{token}/sendMessage?chat_id={ID}&text={m}\n[+] user >> [ @{user} ]\n\n{te}')
+				try:
+					req = r.post(f'https://api.telegram.org/bot{token}/sendMessage?chat_id={ID}&text={m}\n[+] user >> [ @{user} ]\n\n{te}')
 				except NameError:
 					pass
 				
@@ -113,4 +113,3 @@ else:
 	print('              الرقم غلط يا ذكي ..   ')
 	print('              wrong number')
 	print('        By joker / insta : 221298')
-	
