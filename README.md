@@ -4,11 +4,24 @@
 - Do not forget to create a new bot from <a href="https://t.me/BotFather">@BotFather</a> and take the token and put it in the tool
 -
 install in kali linux :
-- git clone https://github.com/vv1ck/Checker-Telegram-.git
-- cd Checker-Telegram-
-- python3 teleCheck.py
 
+<!--START_SECTION:waka-->
+```
+git clone https://github.com/vv1ck/Checker-Telegram-.git
+```
+<!--END_SECTION:waka-->
 
+<!--START_SECTION:waka-->
+```
+cd Checker-Telegram-
+```
+<!--END_SECTION:waka-->
+
+<!--START_SECTION:waka-->
+```
+python3 teleCheck.py
+```
+<!--END_SECTION:waka-->
 -
 By JOKER | <a class="" href="https://www.snapchat.com/add/jokermr5oos4800?">Snapchat 👻</a> | <a class="" href="http://t.me/vv1ck">telegram 🔷</a>
 -
